@@ -9,7 +9,7 @@ import {
     User,
     LogOut
 } from 'lucide-react';
-import { useCart } from '../../context/cartContext';
+import { useCart } from '../../context/CartContext';
 import Nav from './Nav';
 import { useEffect, useState } from 'react';
 import Swal from 'sweetalert2';

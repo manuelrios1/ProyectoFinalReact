@@ -6,7 +6,7 @@ import Escenario from "./pages/Escenario/Escenario";
 import Productos from "./pages/Catalogo/Productos";
 import Contacto from "./pages/Contacto/Contacto";
 import { ThemeProvider } from "./context/ThemeContext";
-import { CartProvider } from "./context/cartContext";
+import { CartProvider } from "./context/CartContext";
 import Carrito from "./pages/Carrito/Carrito";
 import Login from "./components/Auth/Login";
 

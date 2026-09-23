@@ -1,5 +1,5 @@
 import { ShoppingCart } from "lucide-react";
-import { useCart } from "../../context/cartContext"; //Importamos el Context
+import { useCart } from "../../context/CartContext"; //Importamos el Context
 
 const tipoColores = {
   Figure: "bg-green-500/15 text-green-500 ring-green-500/30",
