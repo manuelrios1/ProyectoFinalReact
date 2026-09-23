@@ -1,4 +1,4 @@
-import tubo from "../../../assets/tubo.jpg"
+import tubo from "../../../assets/Tubo.jpg"
 import { useDropzone } from "react-dropzone";
 import { useState } from "react";
 import { useEffect } from "react";
