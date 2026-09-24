@@ -9,6 +9,7 @@ import { ThemeProvider } from "./context/ThemeContext";
 import { CartProvider } from "./context/CartContext";
 import Carrito from "./pages/Carrito/Carrito";
 import Login from "./components/Auth/Login";
+import Que_Hice from "./pages/QueHice/QueHice";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                         <Route path="/contacto" element={<Contacto />} />
                         <Route path="/carrito" element={<Carrito />} />
                         <Route path="/login" element={<Login />}/>
+                        <Route path="/quehice" element={<Que_Hice />}/>
 
                     </Routes>
                 </Layout>

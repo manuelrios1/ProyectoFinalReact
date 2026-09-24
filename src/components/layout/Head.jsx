@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import Login from '../Auth/Login';
 import tortugaImg from '../../assets/Tortuga.png';
 import { useTheme } from '../../context/ThemeContext';
+import estrellaImg from '../../assets/Estrella.svg';
 import {
     Sun,
     Moon,
@@ -343,7 +344,7 @@ function Head() {
 
                                             shrink-0
 
-                                            bg-[#43B047]
+                                            bg-green-600
 
                                             border-3
                                             border-black
@@ -351,10 +352,7 @@ function Head() {
                                             rounded-full
                                         "
                                     >
-                                        <User
-                                            size={27}
-                                            color="white"
-                                        />
+                                        <img src={estrellaImg} alt="Estrella mario bros" />
                                     </div>
 
                                     <div className="flex flex-col">

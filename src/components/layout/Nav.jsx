@@ -167,6 +167,50 @@ function Nav() {
                     </Link>
                 </li>
 
+                {/* CONTACTAME */}
+
+                <li
+                    className="
+                        border-r-[3px]
+                        border-black
+
+                        transition-colors
+                        duration-[100ms]
+                        ease-in-out
+
+                        last:border-r-0
+
+                        hover:bg-[#032e15]
+
+                        group
+                    "
+                >
+                    <Link
+                        to="/quehice"
+                        className="
+                            block
+
+                            py-[10px]
+                            px-[20px]
+
+                            text-black
+
+                            no-underline
+
+                            font-[inherit]
+                            text-[16px]
+                            font-bold
+
+                            [text-shadow:1px_1px_0px_rgba(255,255,255,0.6)]
+
+                            group-hover:text-white
+
+                            group-hover:[text-shadow:1.5px_1.5px_0px_#000000]
+                        "
+                    >
+                        Que Hice
+                    </Link>
+                </li>
             </ul>
         </div>
     );
